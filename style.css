@@ -1,0 +1,92 @@
+
+								/*https://www.youtube.com/watch?v=EPgc-1DyT7E*/
+
+body{
+	font-family: Verdana;
+	font-size: 15px;
+	color: #333;
+	background: #f3f3f3;
+}
+a{
+	text-decoration: none;
+}
+h1,li{
+	color: red;/*ete uzum enq nuyny tal tarber diveri dnum enq storaket*/
+}
+h2.list{/*ete uzum enk vor class=list poxvi voch amen tex apa arancin nshum enq vor menq henc h2 enq uzum poxel*/
+	color: blue;
+}
+div#main{
+	color:yellow;
+
+}
+/*      *{                                                  arancnacnum e eji bolor elementnery
+        border:1px solid gray;}
+*/
+/*ul *{
+border:1px solid lime;     arancnacnum e ul-i bolor elementnery*/
+
+/*}*/
+.list li{
+	border-bottom: 1px dashed #000; /*vorpeszi nshel bolor li-ry listi mej , takic ketagica anum*/
+}
+
+
+ul>li{
+	color: orange;/*ayspes popoxvum e miayn ul-i meji li-ery*/
+}
+
+h4+li{
+	color: rgb(255,0,174);/* knshven miayn h1-i hajord toxery*/
+}
+/* h4~li{
+	knshi h4-i bolor li-ry       ~asum en cilda
+}
+*/
+
+
+
+
+:link{
+	border-bottom:  1px dashed #434;   /* cuyc e talis bolor hxumnery voronk der sexmac chen     takery gica qashum*/
+}
+:visited{
+	border-bottom:  1px dashed #434;    /* cuyc e talis bolor hxumnery voronk arden sexmac en*/
+}
+
+
+
+
+li:hover{ /*ogtagorcvum e ayn depqum erb mkniky tanum enk tvyal elementi vra*/
+/*background: red;  toxy nshuma karmir   */
+border: 1px solid black; /*toxy mkniki hpumov vercnuma vandaki mej*/
+}
+
+:active{ /*ayn hxumneri hamar voronq tvjal pahin aktiv en*/
+
+}
+:focus{
+
+}
+
+
+
+
+
+li:nth-child(2n){          /*knshi li -i amen 2-rd elementy    ete  grenq 2n+1 kcevapoxi kentery, kam kgrenq odd kam even(zuyg kam kent)*/
+	color: rgb(179,78,233);
+}
+/*li:nth-last-child(3) knshi cucaki verjin 3-rdy( ete grenq 3n knshi amen 3-rdy)*/
+/*li:nth-first-child(2)knshi skzbic 2-rdy
+li:nth-first-child*/
+
+h2:before{                       /*h2-ic araj kgri SOVOREL  .       kam grel after- aysinqn heto*/
+	content: 'SOVOREL';
+	font-size: 22px;
+	color:rgb(58,226,206);
+}
+
+
+
+12.30 ropeum hetaqrqir nyut ka
+
